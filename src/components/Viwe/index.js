@@ -1,6 +1,7 @@
-import ListStructures from "../ListStructures";
+// import ListStructures from "../ListStructures";
+import Editor from "../Editor";
 
 function Viwe() {
-  return <ListStructures />;
+  return <Editor />;
 }
 export default Viwe;
