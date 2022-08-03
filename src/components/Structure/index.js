@@ -1,8 +1,12 @@
 import * as S from "./styles";
-const Structure = () => {
+
+function Structure({ label, color }) {
   return (
-    <div>index</div>
-  )
+    <S.WrapperBox>
+      <S.Label>{label}</S.Label>
+      <S.Box color={color}>Hiiii</S.Box>
+    </S.WrapperBox>
+  );
 }
 
-export default Structure
+export default Structure;

@@ -1,12 +1,13 @@
-import { GlobalStyle } from './theme';
-import {Viwe} from "./components"
+import { GlobalStyle } from "./theme";
+import { Viwe } from "./components";
+
 function App() {
   return (
     <>
-    <GlobalStyle />
-    <Viwe />
+      <GlobalStyle />
+      <Viwe />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

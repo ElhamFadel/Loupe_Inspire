@@ -1,5 +1,5 @@
-import { createGlobalStyle } from 'styled-components';
-import styledReset from './styledReset';
+import { createGlobalStyle } from "styled-components";
+import styledReset from "./styledReset";
 
 const GlobalStyle = createGlobalStyle`
 ${styledReset};

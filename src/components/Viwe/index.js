@@ -1,6 +1,6 @@
-const Viwe = () => {
-  return (
-    <div>index</div>
-  )
+import ListStructures from "../ListStructures";
+
+function Viwe() {
+  return <ListStructures />;
 }
 export default Viwe;

@@ -1,4 +1,4 @@
-import { css } from 'styled-components';
+import { css } from "styled-components";
 
 const styledReset = css`
   * {
@@ -6,7 +6,7 @@ const styledReset = css`
     padding: 0;
     border: 0;
     font-size: 100%;
-    font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     box-sizing: border-box;
   }
   html {
@@ -14,7 +14,7 @@ const styledReset = css`
   }
   body {
     background-color: #171717;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
   }
   a {
     text-decoration: none;
