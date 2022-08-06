@@ -1,5 +1,5 @@
 import Structure from "../Structure";
-
+import styled from "styled-components";
 const styleStructures = [
   {
     id: 1,
@@ -24,12 +24,18 @@ const styleStructures = [
 ];
 const ListStructures = () => {
   return (
-    <div>
+    <WrapperStructure>
       {styleStructures.map(({ id, label, color }) => (
         <Structure key={id} label={label} color={color} />
       ))}
-    </div>
+    </WrapperStructure>
   );
 };
+
+const WrapperStructure = styled.div`
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+`;
 
 export default ListStructures;
