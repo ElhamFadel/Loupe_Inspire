@@ -24,11 +24,11 @@ const styleStructures = [
 ];
 const ListStructures = () => {
   return (
-    <>
+    <div>
       {styleStructures.map(({ id, label, color }) => (
         <Structure key={id} label={label} color={color} />
       ))}
-    </>
+    </div>
   );
 };
 
