@@ -1,4 +1,4 @@
-import Editor from "../Editor";
+import Editor from "../CodeEditor";
 import Client from "../ClientScreen";
 import styled from "styled-components";
 function ClientGroup() {
