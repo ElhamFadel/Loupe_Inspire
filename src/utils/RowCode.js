@@ -1,5 +1,3 @@
-const RowCode = () => {
-    
-};
+const RowCode = () => {};
 
 export default RowCode;
